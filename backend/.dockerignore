@@ -1,0 +1,47 @@
+# Node modules
+node_modules
+npm-debug.log
+
+# Angular build output
+dist
+.angular
+
+# Git
+.git
+.gitignore
+
+# IDE files
+.idea
+.vscode
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Testing
+coverage
+karma.conf.js
+*.spec.ts
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile*
+docker-compose*
+.docker
+.dockerignore
+
+# Documentation
+README.md
+CHANGELOG.md
+*.md
+
+# Other
+*.log
+*.swp
+*.bak

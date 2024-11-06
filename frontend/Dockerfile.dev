@@ -1,0 +1,23 @@
+# Development Dockerfile for the frontend
+
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Install Angular CLI globally
+RUN npm install -g @angular/cli
+
+# Copy package.json and package-lock.json
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application files
+COPY . .
+
+# Expose port 4200
+EXPOSE 4200
+
+# Start the Angular development server with hot reloading
+CMD ["ng", "serve", "--host", "0.0.0.0", "--poll=2000", "--disable-host-check", "--configuration=development"]
