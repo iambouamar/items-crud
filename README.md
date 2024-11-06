@@ -1,38 +1,25 @@
-# items-crud
+# Items CRUD Application
 
-items-crud/
-├── frontend/
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── components/
-│   │   │   ├── services/
-│   │   │   ├── models/
-│   │   │   ├── app.component.ts
-│   │   │   ├── app.component.html
-│   │   │   ├── app.component.scss
-│   │   │   └── app.module.ts
-│   │   ├── assets/
-│   │   ├── environments/
-│   │   └── styles.scss
-│   ├── angular.json
-│   └── package.json
-├── backend/
-│   ├── server.js
-│   └── package.json
-└── README.md
+A modern Angular application for managing items with CRUD operations, using NgRx for state management.
 
-styles/
-|-- abstracts/
-|   |-- _variables.scss
-|   |-- _mixins.scss
-|-- base/
-|   |-- _typography.scss
-|   |-- _reset.scss
-|-- components/
-|   |-- _buttons.scss
-|   |-- _forms.scss
-|   |-- _cards.scss
-|-- layout/
-|   |-- _grid.scss
-|   |-- _navigation.scss
-|-- main.scss
+## Features
+
+- List items with responsive grid layout
+- Add new items with form validation
+- Responsive navigation
+- State management with NgRx
+- Docker support
+
+## Prerequisites
+
+- Docker
+- Docker Compose
+
+## Running with Docker
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd items-crud
+
