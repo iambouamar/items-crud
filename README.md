@@ -22,4 +22,18 @@ A modern Angular application for managing items with CRUD operations, using NgRx
 ```bash
 git clone <repository-url>
 cd items-crud
+```
+
+2. Run the application:
+
+```bash
+docker compose up --build
+```
+
+3. Access the application:
+
+```bash
+http://localhost:4200
+```
+
 
